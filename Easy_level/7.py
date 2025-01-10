@@ -13,6 +13,6 @@ vow=""
 for i in string:
     if i in check:
         vow=vow+i
-# print(vow[::-1])
-for j in reversed(vow):
-    print(j,end="")
+print(vow[::-1])
+# for j in reversed(vow):
+#     print(j,end="")
