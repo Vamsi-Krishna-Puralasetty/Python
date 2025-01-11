@@ -7,6 +7,19 @@
 # Explanation : All the upper case letters changed to lower case and vise  versa.  
 
 #method-1
+# str=input("Enter a value : ")
+# print(str.swapcase())
+
+#method-2
 str=input("Enter a value : ")
-print(str.swapcase())
+result=""
+for i in str:
+    if i>="a" and i<="z":
+        result+=i.upper()
+    elif i>="A" and i<="Z":
+        result+=i.lower()
+    else:
+        print("It contains special characters")
+        break
+print(result)
 
