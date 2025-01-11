@@ -12,6 +12,6 @@ res2=""
 for i in str:
     if i>="A" and i<="Z": 
         res1+=i
-    if i>="a" and i<="z":
+    if i>="a" and i<="z": 
         res2+=i
 print(res1[::-1]+res2)
