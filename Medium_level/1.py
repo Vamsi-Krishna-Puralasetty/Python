@@ -10,7 +10,7 @@
 # Testcase1	:  mars
 # Output     	:  false
 
-
+#method-1
 string=input("Enter a string : ")
 if len(string)%2==0:
     sub1=string[0:len(string)//2]
