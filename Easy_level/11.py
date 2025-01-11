@@ -6,7 +6,7 @@
 # Output : LClasseader  
 # Explanation : In the given string ClassLeader, Uppercase letters are C,L.  The reverse order of them are LC next it is followed by lowe case letters  (lasseader). So final string is LClasseader. 
 
-str=input("Enter a string : ")
+str=input("Enter a string : ") 
 res1=""
 res2=""
 for i in str:
