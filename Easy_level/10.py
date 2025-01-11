@@ -7,8 +7,8 @@
 # Explanation : All the upper case letters changed to lower case and vise  versa.  
 
 #method-1
-# str=input("Enter a value : ")
-# print(str.swapcase())
+str=input("Enter a value : ")
+print(str.swapcase())
 
 #method-2
 str=input("Enter a value : ")
