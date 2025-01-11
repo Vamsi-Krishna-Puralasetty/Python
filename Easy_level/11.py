@@ -14,4 +14,4 @@ for i in str:
         res1+=i
     if i>="a" and i<="z":
         res2+=i
-print(res1[::-1]+res2)
+print(res1[::-1]+res2) 
