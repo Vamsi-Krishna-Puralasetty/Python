@@ -24,6 +24,6 @@ for i in lst:
         ans=lst.index(fact)
     else:
         ans=(f"factorial of {test} is not presented")
-print(ans)
+print(ans) 
 
 
