@@ -13,6 +13,7 @@ def sum_of_even(arr):
         if i%2==0:
             res.append(i)
     return sum(res) 
+
 n = int(input("enter the number of elements: "))
 arr=[]
 for i in range(0,n):
