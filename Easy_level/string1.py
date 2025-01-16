@@ -7,3 +7,11 @@
 #method-1
 str=input("Enter the string: ")
 print(str[::-1])
+
+#method-2
+str=input("Enter the string: ")
+res=""
+for i in range(len(str)-1,-1,-1):
+    res=res+str[i]
+print(res)
+    
