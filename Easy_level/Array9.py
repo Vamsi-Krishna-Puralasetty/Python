@@ -7,6 +7,7 @@
 # The even numbers in the array are 2 and 4. Their sum is 2  
 
 #method-1
+
 def sum_of_even(arr):
     res=[]
     for i in arr:
