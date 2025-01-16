@@ -33,7 +33,7 @@
 # # Print the result
 # print("Sum of duplicate digits:", duplicate_sum)
 
-
+#method-2
 num=input("enter : ")
 lst=list(map(int,num))
 dup=[]
