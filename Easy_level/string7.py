@@ -16,3 +16,13 @@ for i in str:
         ans=True
 print(ans)
 
+#method-2 
+num  = input("enter the number: ")
+is_digit = False
+for i in num:
+    if i.isdigit():
+        is_digit = True
+    else:
+        is_digit = False
+        break
+print(is_digit)
