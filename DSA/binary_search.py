@@ -3,6 +3,11 @@
 #It is Used for SORTED elements only.
 #Its is Best for large sized arrays.
 
+#Time complexity:
+    # Best case scenario: O(log(1))
+    # Average case scenario : O(log(N))
+    # Worst case scenario : O(log(N))
+#Space-Complexity : O(1)
 
 def binary_search(arr,key):
     low=0
