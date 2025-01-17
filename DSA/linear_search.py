@@ -5,7 +5,7 @@
 
 #algorithm:
 
-#method-1:
+#method-1 
 def linear_search(arr,key): 
     for i in range(0,len(arr)):
         if arr[i]==key:
@@ -20,7 +20,8 @@ for i in range(0,n):
 key = int(input("Enter the key to be searched: "))  
 print(linear_search(arr,key))
 
-#method-2:
+#method-2
+
 def linear_search(arr,key): 
     for i in arr:
         if i==key:
