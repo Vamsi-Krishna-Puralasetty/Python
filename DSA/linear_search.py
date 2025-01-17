@@ -5,6 +5,12 @@
 
 #algorithm:
 
+# Applications:
+    # When we have an unsorted array or list, linear search is most commonly used
+    # Small Data Sets
+# Disadvantages:
+    # Not suitable for large arrays as it has a time complexity of O(N), which in turn makes it slow for large datasets.
+
 #method-1 
 def linear_search(arr,key): 
     for i in range(0,len(arr)):
@@ -66,4 +72,3 @@ if(result == -1):
     print("Element is not present in array")
 else:
     print("Element is present at index", result)
-    
