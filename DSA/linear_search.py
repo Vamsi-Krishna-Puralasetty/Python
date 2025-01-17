@@ -20,7 +20,6 @@ for i in range(0,n):
 key = int(input("Enter the key to be searched: "))  
 print(linear_search(arr,key))
 
-
 #method-2
 def linear_search(arr,key): 
     for i in arr:
