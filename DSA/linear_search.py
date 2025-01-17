@@ -19,6 +19,11 @@ for i in range(0,n):
     arr.append(element)
 key = int(input("Enter the key to be searched: "))  
 print(linear_search(arr,key))
+#Time complexity:
+    # Best case scenario: O(1)
+    # Average case scenario : O(n)
+    # Worst case scenario : O(n)
+#Space-Complexity : O(1)
 
 #method-2
 def linear_search(arr,key): 
@@ -34,7 +39,11 @@ for i in range(0,n):
     arr.append(element)
 key = int(input("Enter the key to be searched: "))  
 print(linear_search(arr,key))
-
+#Time complexity:
+    # Best case scenario: O(1)
+    # Average case scenario : O(n*n)
+    # Worst case scenario : O(n*n)
+#Space-Complexity : O(1)
 
 #method-3
 def search(arr, N, x):
