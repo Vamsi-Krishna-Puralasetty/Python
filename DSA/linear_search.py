@@ -52,7 +52,7 @@ def search(arr, N, x):
         if (arr[i] == x):
             return i
     return -1
-# Driver Code    
+    # Driver Code    
 N = int(input("enter the number of elements: "))
 arr=[]
 for i in range(0,N):
