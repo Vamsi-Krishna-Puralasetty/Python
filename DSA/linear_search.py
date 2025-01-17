@@ -66,3 +66,4 @@ if(result == -1):
     print("Element is not present in array")
 else:
     print("Element is present at index", result)
+    
