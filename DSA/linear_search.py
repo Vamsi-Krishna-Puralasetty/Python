@@ -5,3 +5,17 @@
 
 #algorithm:
 
+#method-1:
+def linear_search(arr,key): 
+    for i in range(0,len(arr)):
+        if arr[i]==key:
+            return i   
+    return -1
+
+n = int(input("enter the number of elements: "))
+arr=[]
+for i in range(0,n):
+    element = int(input("enter the element of the array: "))
+    arr.append(element)
+key = int(input("Enter the key to be searched: "))  
+print(linear_search(arr,key))
