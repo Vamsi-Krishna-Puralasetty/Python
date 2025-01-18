@@ -5,6 +5,7 @@
 # Input: [2, 4, 3, 5, 7, 8, 9], 7
 # Output: [[4, 3], [2, 5]]
 
+#method-1
 arr=list(map(int,input("Enter the array elements : ").split()))
 target=int(input("Enter the target : "))
 res=[]
@@ -17,3 +18,21 @@ for i in arr:
 #     if i not in res1:
 #         res1.append(i)
 print(res)
+
+#method-2
+def find_pairs(arr, target):
+    pairs = []
+    seen = set()
+    
+    for num in arr:
+        complement = target - num
+        if complement in seen:
+            pairs.append([complement, num])
+        seen.add(num)
+    
+    return pairs
+
+# Testcase
+arr =list(map(int,input("Enter the array elements : ").split()))
+target = int(input("Enter the target : "))
+print(find_pairs(arr, target))
