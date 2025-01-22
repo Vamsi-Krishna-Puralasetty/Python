@@ -8,7 +8,7 @@
 arr=list(map(int,input("Enter the elements : ").split()))
 check=int(input("Enter the value:"))
 arr1=[]
-arr1=arr[check+1:] + arr[0:check+1] 
+arr1=arr[check+1:] + arr[0:check+1]
 print(arr1)
 # for i in range(0,len(arr)):
 #     if i<=check:
