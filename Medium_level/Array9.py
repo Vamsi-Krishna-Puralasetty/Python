@@ -8,3 +8,29 @@
 # Input: [1, [2, [3, [4]], 5]]
 # Output: [1, 2, 3, 4, 5]
 
+# Method - 1
+str = input("enter the string: ")
+res=""
+for i in str:
+    if i!="[" and i!="]":
+        res+=i
+print("["+res+"]")
+
+# Method - 2
+def flatten_array(arr):
+    result = []
+    for i in arr:
+        if type(i) == list:  # Check if the element is a list
+            result.extend(flatten_array(i))  # Recursively flatten the list
+        else:
+            result.append(i)  # Append non-list elements
+    return result
+
+# Taking input from the user
+nested_list = eval(input("Enter a nested list: "))  # Example: [1, [2, [3, [4]], 5]]
+
+# Flatten and print the result
+print("Flattened list:", flatten_array(nested_list))
+
+
+
